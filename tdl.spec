@@ -1,8 +1,8 @@
-Summary:	To-do list managment
+Summary:	Todo list managment
 Summary(pl):	Zarz±dzanie list± spraw do zrobienia
 Name:		tdl
 Version:	1.0
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://www.rrbcurnow.freeuk.com/tdl/%{name}-%{version}.tar.gz
@@ -10,7 +10,7 @@ URL:		http://www.rrbcurnow.freeuk.com/tdl/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tdl is a lightweight program for managing a 'to-do' list of pending
+Tdl is a lightweight program for managing a todo list of pending
 jobs that you have.
 
 %description -l pl
