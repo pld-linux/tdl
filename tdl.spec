@@ -15,7 +15,7 @@ Tdl is a lightweight program for managing a todo list of pending
 jobs that you have.
 
 %description -l pl
-Tdl jest ma³owymagaj±cym programem umo¿liwiaj±cym zarz±dzanie list±
+Tdl jest ma³o wymagaj±cym programem umo¿liwiaj±cym zarz±dzanie list±
 spraw do wykonania.
 
 %prep
