@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://www.rrbcurnow.freeuk.com/tdl/%{name}-%{version}.tar.gz
+# Source0-md5:	abe59f97305f6fe95b84f1bfb88acd89
 URL:		http://www.rrbcurnow.freeuk.com/tdl/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
