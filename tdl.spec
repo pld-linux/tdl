@@ -35,13 +35,12 @@ install -d $RPM_BUILD_ROOT%{_mandir}/man1
 	mandir=$RPM_BUILD_ROOT%{_mandir} \
 	man1dir=$RPM_BUILD_ROOT%{_mandir}/man1
 
-gzip -9nf README NEWS
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README NEWS
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
