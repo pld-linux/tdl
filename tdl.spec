@@ -5,9 +5,9 @@ Version:	1.4.1
 Release:	1
 License:	GPL
 Group:		Applications
+Source0:	http://www.rpcurnow.force9.co.uk/tdl/%{name}-%{version}.tar.gz
 # Source0-md5:	298b5ac103e6d3cadfdbcd046a6745a9
-Source0:	http://www.rrbcurnow.freeuk.com/tdl/%{name}-%{version}.tar.gz
-URL:		http://www.rrbcurnow.freeuk.com/tdl/
+URL:		http://www.rc0.org.uk/tdl/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -40,7 +40,6 @@ install -d $RPM_BUILD_ROOT%{_mandir}/man1
 	bindir=$RPM_BUILD_ROOT%{_bindir} \
 	mandir=$RPM_BUILD_ROOT%{_mandir} \
 	man1dir=$RPM_BUILD_ROOT%{_mandir}/man1
-
 
 %clean
 rm -rf $RPM_BUILD_ROOT
