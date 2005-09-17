@@ -2,7 +2,7 @@ Summary:	Todo list managment
 Summary(pl):	Zarz±dzanie list± spraw do zrobienia
 Name:		tdl
 Version:	1.4.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications
 Source0:	http://www.rpcurnow.force9.co.uk/tdl/%{name}-%{version}.tar.gz
