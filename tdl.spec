@@ -2,11 +2,12 @@ Summary:	Todo list managment
 Summary(pl):	Zarz±dzanie list± spraw do zrobienia
 Name:		tdl
 Version:	1.4.1
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications
 Source0:	http://www.rpcurnow.force9.co.uk/tdl/%{name}-%{version}.tar.gz
 # Source0-md5:	298b5ac103e6d3cadfdbcd046a6745a9
+Patch0:		%{name}-install.patch
 URL:		http://www.rc0.org.uk/tdl/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -20,6 +21,7 @@ spraw do wykonania.
 
 %prep
 %setup  -q
+%patch0 -p1
 
 %build
 # not GNU configure
