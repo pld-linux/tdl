@@ -1,5 +1,5 @@
 Summary:	Todo list managment
-Summary(pl.UTF-8):   Zarządzanie listą spraw do zrobienia
+Summary(pl.UTF-8):	Zarządzanie listą spraw do zrobienia
 Name:		tdl
 Version:	1.4.1
 Release:	3
