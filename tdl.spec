@@ -1,5 +1,5 @@
 Summary:	Todo list managment
-Summary(pl):	Zarz±dzanie list± spraw do zrobienia
+Summary(pl.UTF-8):   ZarzÄ…dzanie listÄ… spraw do zrobienia
 Name:		tdl
 Version:	1.4.1
 Release:	3
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Tdl is a lightweight program for managing a todo list of pending
 jobs that you have.
 
-%description -l pl
-Tdl jest ma³o wymagaj±cym programem umo¿liwiaj±cym zarz±dzanie list±
+%description -l pl.UTF-8
+Tdl jest maÅ‚o wymagajÄ…cym programem umoÅ¼liwiajÄ…cym zarzÄ…dzanie listÄ…
 spraw do wykonania.
 
 %prep
